@@ -1,6 +1,14 @@
 ## Introduction
 
-ASprofiler fetches the most recent available datasets to profile ASes (Autonomou Systems). 
+ASprofiler fetches the most recent available datasets to profile ASes (Autonomou Systems) in terms of their:
+ - Providers
+ - Customers
+ - Peers
+ - Customer Cone (direct/indirect customers)
+ - IXPs in which they have presence
+ - Facilities in which they have presence
+ - Geographic information (city/country level) 
+
 
 Here is the database list from which the tool retrieves all the appropriate data:
  1. [AS Relationships](https://www.caida.org/catalog/datasets/as-relationships)

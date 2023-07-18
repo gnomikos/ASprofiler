@@ -1,6 +1,6 @@
 ## Introduction
 
-ASprofiler fetches the most recent available datasets to profile ASes (Autonomou Systems) in terms of their:
+ASprofiler fetches the most recent available datasets to profile ASes (Autonomous Systems) in terms of their:
  - Providers
  - Customers
  - Peers

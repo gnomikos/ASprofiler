@@ -31,7 +31,7 @@ The output data might be used to:
 - Processes the requested ASes and export their profiles
 
 ## How to run
-`$ python3 asprofiler.py -if asns.csv -of export.json`
+`$ python3 asprofiler.py -if test.csv -of export.json`
 
 _test.csv_: contains all the candidate ASes to build their profile (with format 1,2,3)
 

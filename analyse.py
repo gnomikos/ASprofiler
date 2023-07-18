@@ -93,6 +93,7 @@ class Analyse():
 
 
     def import_ixps_info(self):
+        # Parse the total list of the available IXPs
 
         with open(self.ixp_filename) as f:
             next(f)
@@ -104,6 +105,8 @@ class Analyse():
 
 
     def import_as_to_ixps_info(self):
+        # Parse the IXP membership for each AS
+
         with open(self.as_to_ixp_filename) as f:
             next(f)
             for line in f:
@@ -112,6 +115,8 @@ class Analyse():
 
 
     def import_as_faciiity_info(self):
+        # Parse the facility membership for each AS
+
         data = lib.import_json(self.as_to_facility_filename)
         for entry in data['netfac']['data']:
             
@@ -119,6 +124,8 @@ class Analyse():
 
 
     def import_as_relationship(self, filename, version):
+        # Parse the AS relationships
+
         with bz2.open(filename, 'rt') as file:
             for line in file:
                 if not line.startswith('#'):

@@ -7,6 +7,7 @@ import wget
 import os
 
 class Download():
+    # Downloads all the necessary datasets
 
     def __init__(self):
         self.ixp_filename = None

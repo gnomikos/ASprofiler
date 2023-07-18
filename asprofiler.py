@@ -6,7 +6,7 @@ import argparse
 import lib
 
 def main():
-    parser = argparse.ArgumentParser(description="A tool to profile Autonomous systems based on publicly available datasets")
+    parser = argparse.ArgumentParser(description="A tool to profile Autonomous Systems based on publicly available datasets")
     parser.add_argument('-if', '--input_file', type=str, help='csv file containing the total list of ASNs (e.g. 1,2,3,4)', required=True)
     parser.add_argument('-of', '--output_file', type=str, help='.json output filename containing all the available data for the profiled ASes', required=True)
     args = parser.parse_args()

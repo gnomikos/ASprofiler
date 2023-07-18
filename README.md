@@ -7,7 +7,7 @@ ASprofiler fetches the most recent available datasets to profile with an easy an
  - Customer Cone (direct/indirect customers)
  - IXPs in which they have presence
  - Facilities in which they have presence
- - Geographic information (city/country level) 
+ - Geographic information (city/country level) based on their exchanged traffic
 
 
 Here is the database list from which the tool retrieves all the appropriate data:
@@ -20,7 +20,7 @@ Here is the database list from which the tool retrieves all the appropriate data
 **Why ASprofiler is important?**
 
 The output data might be used to:
-- Increase the granularity of the existing information concerning the AS portfolio
+- Increase the granularity of the information of the existing AS portfolio
 - Evaluate the networking expansion of the customer base
 - Geolocate ASes based on where they exchange Internet traffic
 ------------

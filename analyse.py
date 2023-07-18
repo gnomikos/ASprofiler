@@ -7,6 +7,7 @@ from collections import defaultdict
 import requests
 
 class Analyse():
+    # Parses and analyses the total list of the retrieved datasets
     
     def __init__(self, ixp_filename, as_to_ixp_filename, as_to_facility_filename, as_to_relationship_v4_filename, as_to_relationship_v6_filename, customer_cone_filename, asns):
 

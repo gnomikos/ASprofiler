@@ -58,7 +58,6 @@ class Download():
 
 
     def download_peeringdb(self):
-        
         webpage = 'https://publicdata.caida.org/datasets/peeringdb/'
 
         previous_date = (datetime.datetime.today() - datetime.timedelta(days=1))
@@ -73,7 +72,6 @@ class Download():
         
         
     def download_caida_relationship_cone_datasets(self):
-    
         webpage = 'https://publicdata.caida.org/datasets/as-relationships/serial-2/'
         html_page = requests.get(webpage)
         soup = BeautifulSoup(html_page.text, "lxml")

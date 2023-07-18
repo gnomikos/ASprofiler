@@ -21,14 +21,15 @@ class Analyse():
         self.customer_cone = {}
         self.as2org = {}
         
+        # assign the filenames of the downloaded dataset files
         self.ixp_filename = ixp_filename
         self.as_to_ixp_filename = as_to_ixp_filename
         self.as_to_facility_filename = as_to_facility_filename
-
         self.as_to_relationship_v4_filename = as_to_relationship_v4_filename
         self.as_to_relationship_v6_filename = as_to_relationship_v6_filename
         self.customer_cone_filename = customer_cone_filename
 
+        # initiate the parsing process
         self.import_ixps_info()
         self.import_as_to_ixps_info()
         self.import_as_faciiity_info()
@@ -145,6 +146,8 @@ class Analyse():
                     
     
     def import_as_to_customer_cone(self):
+        # Parse the customer cone of each AS
+
         with bz2.open(self.customer_cone_filename, 'rt') as file:
             for line in file:
                 if not line.startswith('#'):

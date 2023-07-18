@@ -1,6 +1,6 @@
 ## Introduction
 
-ASprofiler fetches the most recent available datasets to profile ASes (Autonomous Systems) in terms of their:
+ASprofiler fetches the most recent available datasets to profile with an easy and fast way the selected ASes (Autonomous Systems) in terms of their:
  - Providers
  - Customers
  - Peers
@@ -20,10 +20,9 @@ Here is the database list from which the tool retrieves all the appropriate data
 **Why ASprofiler is important?**
 
 The output data might be used to:
-- increase the granularity of the existing information concerning the AS portfolio
-- evaluate the networking expansion of the customer base
-- geolocate ASes based on where they exchange Internet traffic
-
+- Increase the granularity of the existing information concerning the AS portfolio
+- Evaluate the networking expansion of the customer base
+- Geolocate ASes based on where they exchange Internet traffic
 ------------
 
 ## How it works

@@ -7,7 +7,7 @@ ASprofiler fetches the most recent available datasets to profile with an easy an
  - Customer Cone (direct/indirect customers)
  - IXPs in which they have presence
  - Facilities in which they have presence
- - Geographic information (city/country level) based on their exchanged traffic
+ - Geographic information (city/country level) based on their exchanged traffic in IXPs & Colos
 
 
 Here is the database list from which the tool retrieves all the appropriate data:
